@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
   // Create a structure variable called myStructure
-  struct {
+  struct {  // A structure is a user-defined data type that allows you to combine data items of different kinds. It is a way to group related variables together under one name. Each variable in the structure is called a member, and they can be of different data types.
     int myNum;
     string myString;
   } myStructure;
