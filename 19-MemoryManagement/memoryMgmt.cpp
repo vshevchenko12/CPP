@@ -1,0 +1,17 @@
+#include <iostream>  // https://www.w3schools.com/cpp/cpp_ref_iostream.asp
+using namespace std;
+
+int main() {
+  int myInt;
+  float myFloat;
+  double myDouble;
+  char myChar;
+
+  cout << sizeof(myInt) << "\n";     // 4 bytes (typically)
+  cout << sizeof(myFloat) << "\n";   // 4 bytes
+  cout << sizeof(myDouble) << "\n";  // 8 bytes
+  cout << sizeof(myChar) << "\n";    // 1 byte
+  return 0;
+}
+
+// If your program uses too much memory, or forgets to clean up memory it no longer needs, it can lead to slow performance or even crashes. That's why understanding memory is important. It gives you more control and helps avoid common bugs.
